@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <h2> 🎓 WebTech portal</h2>
+    </title>
+    <style>
+        .margin {
+            margin-top: 50px;
+            margin-bottom: 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+
+        }
+
+        .BOX1 {
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: 0 2PX 3px white;
+
+        }
+
+        .BOX2 {
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: 0 2PX 3px white;
+            margin-top: 35px;
+            width: 800px;
+            height: 240px;
+        }
+
+        .BOX3 {
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: 0 2PX 3px white;
+            margin-top: 35px;
+            width: 800px;
+            height: 240px;
+
+        }
+
+        .container1 {
+            display: flex;
+            gap: 20px;
+        }
+
+        .BOX4 td,
+        th {
+            border-bottom: 1px solid black;
+            text-align: left;
+            padding: 10px;
+            ;
+
+        }
+
+        .BOX4 {
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: 0 2PX 8px white;
+            margin-top: 35px;
+            width: 600px;
+            height: 350px;
+
+
+        }
+
+        .container3 {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        .image1 {
+            border: 20px;
+            background-color: rgb(191, 170, 173);
+            border-color: green;
+            padding:
+                12px;
+            height: 300px;
+            width: 200px;
+            text-align: center;
+            border-radius: 4px;
+
+        }
+
+        .image2 {
+            border: 20px;
+            background-color: rgb(191, 170, 173);
+            border-color: green;
+            padding: 12px;
+            height: 300px;
+            width: 200px;
+            text-align: center;
+            border-radius: 4px;
+
+        }
+
+        .image3 {
+            border: 20px;
+            background-color: rgb(191, 170, 173);
+            border-color: green;
+            padding:
+                12px;
+            height: 300px;
+            width: 200px;
+            text-align: center;
+            border-radius: 4px;
+
+        }
+
+        .BOX5 {
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 30px;
+            margin-top: 35px;
+            width: 400px;
+            height: 350px;
+
+        }
+
+        .BOX6 {
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 30px;
+            margin-top: 35px;
+            width: 400px;
+            height: 350px;
+
+        }
+
+        .BOX7 {
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 30px;
+            margin-top: 35px;
+            width: 400px;
+            height: 350px;
+
+        }
+
+        .container5 {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        .BOX8 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 3.5cm;
+            width: 18cm;
+            padding: 10px;
+        }
+
+        .BOX9 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 3.5cm;
+            width: 18cm;
+            padding: 10px;
+        }
+
+        .container6 {
+            display: flex;
+            gap: 20px;
+        }
+
+        .container7 {
+            display: flex;
+            gap: 20px;
+        }
+
+        .BOX10 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 3.5cm;
+            width: 18cm;
+            padding: 10px;
+        }
+
+        .BOX11 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 3.5cm;
+            width: 18cm;
+            padding: 10px;
+        }
+
+        .BOX12 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 3.5cm;
+            width: 16.5cm;
+            padding: 10px;
+        }
+
+        .BOX13 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 4.5cm;
+            width: 18cm;
+            padding: 10px;
+        }
+
+        .BOX14 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 4.5cm;
+            width: 18cm;
+            padding: 10px;
+        }
+
+        .container8 {
+            display: flex;
+            gap: 20px;
+        }
+
+        .BOX15 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 4.5cm;
+            width: 34.5cm;
+            padding: 10px;
+        }
+
+        .BOX16 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 3cm;
+            width: 34.5cm;
+            padding: 10px;
+        }
+
+        .BOX17 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 250px;
+            width: 1300px;
+            padding: 10px;
+        }
+
+        .BOX18 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 5cm;
+            width: 34.5cm;
+            padding: 10px;
+        }
+
+        .BOX19 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 6.5cm;
+            width: 34.5cm;
+            padding: 10px;
+        }
+
+        .BOX20 {
+            background-color: #f9f0f0;
+            border-radius: 13px;
+            height: 10cm;
+            width: 34.5cm;
+            padding: 10px;
+        }
+
+        .Image {
+            height: 500px;
+            background-color: rgb(245, 205, 205);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .content {
+            padding: 15px;
+
+        }
+
+        .container4 {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            width: 900px;
+
+
+
+        }
+
+        .BOX {
+            flex: 1;
+            min-width: 0;
+            background-color: rgb(240, 234, 234);
+            border: 1px solid whitesmoke;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* SUCCESS SECTION */
+
+        .success {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        /* HEADING */
+
+        .success h2 {
+            font-size: 28px;
+            color: #263238;
+            margin-bottom: 8px;
+        }
+
+        /* DESCRIPTION */
+
+        .success-description {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 25px;
+        }
+
+        /* MAIN CARD */
+
+        .success-card {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        /* IMAGE */
+
+        .success-image {
+            width: 32%;
+            min-width: 32%;
+        }
+
+        .success-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* RIGHT CONTENT */
+
+        .success-content {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* STUDENT NAME */
+
+        .success-content h3 {
+            font-size: 18px;
+            color: #333;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        /* ROLE */
+
+        .success-content .role {
+            display: inline-block;
+            background-color: #e8f5f2;
+            color: #438f85;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            margin-bottom: 12px;
+        }
+
+        /* QUOTE */
+
+        .success-content blockquote {
+            border-left: 3px solid #438f85;
+            padding-left: 12px;
+            margin: 10px 0;
+            font-size: 12px;
+            font-style: italic;
+            color: #666;
+            line-height: 1.7;
+        }
+
+        /* PARAGRAPH */
+
+        .success-content p {
+            font-size: 12px;
+            line-height: 1.7;
+            color: #555;
+        }
+
+        /* LAST TEXT */
+
+        .success-content .success-note {
+            font-size: 11px;
+            color: #888;
+            font-style: italic;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 600px) {
+
+            .success-card {
+                flex-direction: column;
+            }
+
+            .success-image {
+                width: 100%;
+                height: 250px;
+            }
+
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.864);
+            color: white;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 30px;
+            box-sizing: border-box;
+        }
+
+        .nav-links {
+            color: white;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            margin: 10px;
+
+        }
+
+        .nav-links a:hover {
+            color: orange;
+        }
+
+        footer {
+            background-color: #1c2230;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 60px;
+            font-size: 14px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <span> 🎓WebTech portal</span>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#📘 Introduction to HTM">Introduction</a>
+            <a href="#code">Code</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Updates">Updates</a>
+            <a href="#Courses">Courses</a>
+            <a href="#Definitions">Definitions</a>
+            <a href="#Quotes">Quotes</a>
+            <a href="#styling">Styling</a>
+            <a href="#Structure">Structure</a>
+            <a href="#Success">success</a>
+        </div>
+    </nav>
+    <div id="home">
+        <div
+            style="padding-left: 500px;padding-right: 500px;padding-bottom: 50px;padding-top: 50px; background-image: url(project/Baground\ image.jpeg);height: 300px; width:500px;color: white;">
+            <b>
+                <h1>Complete Web Technology
+                    <br>Learning Portal
+                </h1>
+                <p>
+                    A comprehensive single-page educational Website Demonstrating all fundamental HTML
+                    <br>concepts-from basic Structure to advanced formatting and layout.
+                </p>
+            </b>
+            <button style=" border-radius: 10px; height: 1cm;background-color: rgb(58, 112, 58);color: white;">Start
+                Learning -></button>
+            <button style="border-radius: 10px; height: 1cm;background-color: orangered;color: white;">View
+                Courses</button>
+
+        </div>
+    </div>
+    <div id="📘 Introduction to HTM">
+        <div class="margin">
+            <h1>📘 Introduction to HTML</h1>
+            <P style="color: #808080d2; ">Explore every heading level and text formatting tag available in HTML</P>
+            <div class="BOX1">
+                <h1>Heading 1-The Main Title</h1>
+                <h2>Heading 2-Section Title</h2>
+                <h3>Heading 3-Subsection</h3>
+                <h4>Heading 4-Topic</h4>
+                <h5>Subtopic</h5>
+                <h6>Detail</h6>
+            </div>
+            <div class="container1">
+                <div class="BOX2">
+                    <b>
+                        <h3>Paragraph Alignments</h3>
+                    </b>
+                    <p> <button
+                            style="border-radius: 7px; background-color: #d5f6f1; color: rgb(8, 61, 8) ">Left</button>
+                        This Paragraph is aligned to the left,which is the default <br>
+                        Alignment for most text content on the web.
+                        <br> <br><button
+                            style="border-radius: 7px; background-color: #d4f2ee; color: rgb(8, 61, 8)">Right</button>
+                        This paragraph is right-aligned,often used for datesor signatures.
+                        <br><br><button
+                            style="border-radius: 7px; background-color: #c7f0eb; color: rgb(8, 61, 8)">Center</button>This
+                        paragraph is centered,commonly used for headings and titles.
+                        <br><br> <button
+                            style="border-radius: 7px; background-color: #d2f3ee; color: rgb(8, 61, 8)">Justify</button>
+                        This paragraph is justified.The text stretches so that
+                        <br>each line has equal width,creating a clean block appearrance
+                        <br>similar to newspapers and books.
+                    </p>
+                </div>
+                <div class="BOX3">
+                    <b>
+                        <h3>Line Breaks & formatting</h3>
+                    </b>
+                    HTML Stands fo <b>Hyper Text Markup Language.</b>
+                    <br>It was created by <i>Tim Berners-Lee in 1991.</i>
+                    <br>HTML is the<u>backbone</u> of every website.
+                    <hr width="100%" size="5cm">
+                    <b>Strong emphasis</b> vs <i>emphasis</i>text
+                    <br><big>Big Text</big><small> vs small </small>
+                    <br>H<sub>2</sub>o is water,E=mc<sup>2</sup>
+                    <br><mark>Highlighted text </mark> <del>deleted text</del>
+
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <div id="code">
+                <h1>🔣 Special Characters & Code Display</h1>
+                <p style="color: #b9b0b0;">HTML entities and performatted code blocks.</p>
+                <div class="container2">
+                    <div class="container3">
+
+
+                        <div class="BOX4
+               "> <b>
+                                <h3>HTML Entities</h3>
+                            </b>
+
+                            <table>
+                                <tr>
+                                    <th>Entity</th>
+                                    <th>Symbol</th>
+                                    <th>Description</th>
+                                </tr>
+                                <tr>
+                                    <td> &nbsp; </td>
+                                    <td>(Space)</td>
+                                    <td>Non-breaking space</td>
+                                </tr>
+                                <tr>
+                                    <td>&It</td>
+                                    <td>
+                                        << /td>
+                                    <td>Less than</td>
+                                </tr>
+                                <tr>
+                                    <td>&gt</td>
+                                    <td>></td>
+                                    <td>Greater than</td>
+                                </tr>
+                                <tr>
+                                    <td>&copy;</td>
+                                    <td> </td>
+                                    <td>Copyright</td>
+                                </tr>
+                                <tr>
+                                    <td>&reg;</td>
+                                    <td> </td>
+                                    <td>Registered</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div>
+                            <div id="code">
+                                <h2>Code Preview Block</h2>
+                                <div style="background-color: black;
+                    padding: 20px;
+                    border-radius: 30px;
+                    box-shadow:0 2PX 8px black;
+                    margin-top: 35px;
+                    width: 600px;
+                    height: 300px;
+                    color: white; ">
+                                    <pre style="color: yellow;">
+                   <code>&lt;!DOCTYPE html &gt;</code>
+                    &lt; html="en"&gt;
+                    &lt;head &gt;
+                    &lt;meta charest="UTF-8"/&gt;
+                    &lt;meta name="view port"
+                    Content="width=device-width"
+                    initial-Scale=1.0"/&gt;
+                    &lt; title &gt; My First Page &lt; /title &gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    &lt;h1&gt;Hello world!&lt;/h1&gt;
+                    &lt;P&gt;Welcome to HTML.&lt;/p&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Gallery"><b>
+                        <h1>🖼️Image Gallery</h1>
+                    </b>
+                    <p style="color: #8e8b8b;">Demonstrating Image attributes:width,height,Alignment,soacing and borders
+                    </p>
+                    <div class="container4">
+                        <div class="BOX">
+                            <div class="Image">
+                                <img src="download.png" alt="html image">
+                            </div>
+                            <div class="content">
+                                <h3>HTML</h3>
+                                <p>Image inside a centered with paragraph border styling.</p>
+                            </div>
+                        </div>
+                        <div class="BOX">
+                            <div class="Image">
+                                <img src="download (1).png" alt="CSS image">
+                            </div>
+                            <div class="content">
+                                <h3>CSS3</h3>
+                                <p>Image Alignment left with background and border.</p>
+                            </div>
+                        </div>
+                        <div class="BOX">
+                            <div class="Image">
+                                <img src="download (2).png" alt="js Image">
+                            </div>
+                            <div class="content">
+                                <h3>JavaScript</h3>
+                                <p>Image Alignment right,Demonstrating image positioning.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div id="Updates"><b>
+                        <h1>🎞️ Live Updates</h1>
+                    </b>
+                    <div style="color: white;">
+                        <p style="color: #b9b0b0;">Animated scrolling announcement(CSS-based marquee alternatives).</p>
+                        <marquee bgcolor="green" height="35px" width="1300" direction="left">
+                            📢 New cource Alert:Advanced React Patterns-Enroll Now! 🔥 Limited seats available for the
+                            summer Bootcap
+                            2026!</marquee>
+                        <br>
+                        <marquee bgcolor="orange" height="35px" width="1300" direction="right"> 🏆 Congratulations our
+                            Top Learners of the Month 🎓 500+ students graduated this quarter!</marquee>
+                        <br>
+                        <marquee bgcolor="green" height="35px" width="1300" direction="right">⚡Java Script Masterclass
+                            starts Monday-Don't miss out!</marquee>
+                        <div style="color: green;">
+                            <marquee bgcolor="lightgreen" height="35px" width="1300">🚀Learn JavaScript of the Web!
+                                build interactive websites today.</marquee>
+                        </div>
+                    </div>
+                </div>
+                <div id="Courses">
+                    <h1>🗒️Available Courses</h1>
+                    <P style="color: #b9b0b0;">Demonstrating unordered,order,and nested lists with different markers.
+                    </P>
+                    <div class="container5">
+                        <div class="BOX5
+               ">
+                            <h3>Unordered Lists</h3>
+                            <ol>Type:disc(default)
+                                <ul type="disc">
+                                    <li>HTML Fundamentals</li>
+                                    <li>CSS Basics</li>
+                                </ul>
+                            </ol>
+                            <ol>Type:circle
+                                <ul type="circle">
+                                    <li>JavaScript</li>
+                                    <li>TypeScript</li>
+                                </ul>
+                            </ol>
+                            <ol>Type:Square
+                                <ul type="Square">
+                                    <li>React</li>
+                                    <li>Node.js</li>
+                                </ul>
+                            </ol>
+                            <ol>Type:none
+                                <li> 📦Docker</li>
+                                <li> 💬AWS</li>
+                            </ol>
+                        </div>
+                        <div class="BOX6">
+                            <h3>Ordered Lists</h3>
+                            <ol>
+                                Type:1(default)
+                                <ol type="1">
+                                    <li>Introduction to Web</li>
+                                    <li>Setting Up Environment</li>
+                                </ol>
+                                Type:A
+                                <ol type="A">
+                                    <li>Frontent Development</li>
+                                    <li>Backend Development</li>
+
+                                </ol>
+                                Type:a
+                                <ol type="a">
+                                    <li>Database Design</li>
+                                    <li>API Development</li>
+                                </ol>
+                                Type:I,Start=3
+                                <ol type="I" start="3">
+                                    <li>Advanced Patterns</li>
+                                    <li>Deployment</li>
+                                </ol>
+
+                            </ol>
+
+                        </div>
+                        <div class="BOX7">
+                            <h3>Web Structure</h3>
+                            <ol type="1">
+                                <li>Web Development
+                                    <ul type="disc">
+                                        <li>Module 1:HTML</li>
+                                        <ul Type="circle">
+                                            <li>Tags & Elements</li>
+                                            <li>attributes</li>
+                                            <li>Forms</li>
+                                        </ul>
+                                        <li>Module 2:CSS
+                                            <ul Type="circle">
+                                                <li>Selectors</li>
+                                                <li>Flexbox & Grid</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>Programming</li>
+                                <ul type="disc">
+                                    <li>Module1:JavaScript
+                                        <ul type="circle">
+                                            <li>Variables & Functions</li>
+                                            <li>DOM Manipulation</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div id="Definitions">
+                    <h1>📖 Technology Definitions</h1>
+                    <p style="color: #b9b0b0;">A definition list of key web Technologies</p>
+                    <div class="container6">
+                        <div class="BOX8">
+                            <h3 style="color: green;">HTML</h3>
+                            <P>HyperText Markup Language - for creating
+                                <br>web pages and web applications.
+                            </P>
+                        </div>
+                        <div class="BOX9">
+                            <h3 style="color: green;">CSS</h3>
+                            <P>Cascading Style Sheets-used to describe the presentation and layout of HTML documents.
+                            </P>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="container7">
+                        <div class="BOX10">
+                            <h3 style="color: green;">JavaScript</h3>
+                            <P>A high-level,interpreted programming language that enables interactive web pages and
+                                dynamic content.</P>
+                        </div>
+                        <div class="BOX11">
+                            <h3 style="color: green;">React</h3>
+                            <P>A JavaScript library for building user interfaces,maintained by Meta and a community of
+                                developers. </P>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="BOX12">
+                        <h3 style="color: green;">Node.js</h3>
+                        <P>A runtime environment that executes JavaScript code outside a web browser,enabling
+                            server-side development.</P>
+                    </div>
+                </div>
+                <div id="Quotes">
+                    <h1>💬Quotes & Abbreviations</h1>
+                    <p style="color: #8e8b8b;">Using blockquote and abbr elements.</p>
+                    <div class="container8">
+                        <div class="BOX13">
+                            <br>
+                            <p><i>"The Web I envisaged it,we have not seen it yet.
+                                    The future is still so much bigger than the past."
+                                    <br>
+                                </i>
+                                -The Berners-Lee,inventor of the.WWW
+                            </p>
+                        </div>
+                        <div class="BOX14">
+                            <h3>Common Abbreviations</h3>
+                            <p><B>HTML</B> is the foundation of all web content.
+                                <br><b>CSS</b> handles visual presentation and layout
+                                <br><b>API</b> enables communications between software systems.
+                                <br><b>DOM</b> represents the page Structure as a tree of objects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="styling">
+                    <h1>🎨 Styling & Layout Enhancements</h1>
+                    <p style="color: #8e8b8b;">Demonstrating legacy font styling, and horizontal rules with various
+                        attributes.</p>
+                    <div class="BOX15">
+                        <h3>Font Variations</h3>
+                        <p style="font-family: Georgia, 'Times New Roman', Times, serif;size: 4;color: teal;">font
+                            face="Georgia"color="teal"-Serif style text</p>
+                        <p style="font-family: 'Courier New', Courier, monospace; size: 3;color: orange;">font
+                            face="Courier new" size="3" color="orange" - Monospace style</p>
+                        <p style="font-family: Arial, Helvetica, sans-serif; size: 5;color: red;">font face="Aral"
+                            size="5" color="red" - Sans-serif display</p>
+                    </div>
+                    <br><br>
+                    <div class="BOX16">
+                        <center>
+                            <h2>This content is centered
+                            </h2>
+                            <P style="color: #8e8b8b;">Equivalent of the legacy &lt;cente&gt;tag</P>
+                        </center>
+                    </div>
+                    <br>
+                    <div class="BOX17
+        ">
+                        <h3>horizontal Rules(&lt;hr&gt;)</h3>
+                        <p>width="100%",size="1"-Full width,thin</p>
+                        <hr width="100%" size="1">
+                        <p>width="80%" size="3" align="center"</p>
+                        <hr width="80%" size="3" align="cente" color="green">
+                        <p>width "40%" size="4" align="left" color="orange" </p>
+                        <hr width="40%" size="4" align="left" color="orange">
+                        <p>width "40%" size="4" align="right"</p>
+                        <hr width="40%" size="4" align="right" color="green">
+                    </div>
+                </div>
+                <div id="Structure">
+                    <br>
+                    <h1>Website Content Structure</h1>
+                    <p style="color: #8e8b8b;">A documentation-style layout combining headings,lists,and paragraphs.</p>
+                    <div class="BOX18">
+                        <h3>Chapter 1:Introduction</h3>
+                        <P style="color: #8e8b8b;">This Chapter covers the Fundamentals of web Technologies and how the
+                            internet delivers content to users worldwide.</P>
+                        <br> 1.What is the Internet?
+                        <br>2.How Web Browsers Work
+                        <br>3.Client-Server Architecture
+                    </div>
+                    <br>
+                    <div class="BOX19">
+                        <h3>Chapter 2:Web Design</h3>
+                        <p style="color: #8e8b8b;">Learn the principles of effctive web design,including
+                            layout,typography,and color theory.</p>
+                        <ul type="disc">
+                            <b>
+                                <li>Data Flow</li>
+                            </b>
+                        </ul>
+                        <p style="color: #8e8b8b;">Understanding how data moves between the frontend and Backend through
+                            APIs and database</p>
+                        <ol type="1">
+                            <li>Request & Response Cycle</li>
+                            <li>REST ful API Design</li>
+                            <li>State Management</li>
+                        </ol>
+                    </div>
+                    <br>
+                    <div class="BOX20">
+                        <h2>Chapter 3:system Design</h2>
+                        <p style="color: #8e8b8b;">Explore the architecture and design Patterns used in building
+                            scalable web applications.</p>
+                        <ul type="disc">
+                            <li>Input Design</li>
+                        </ul>
+                        <p style="color: #8e8b8b;">Designing user-friendly forms and data entry interfaces</p>
+                        <ul type="circle">
+                            <li>Form Validation</li>
+                            <li>Accessibility Consideration</li>
+                            <li>Error Handling & feedback</li>
+                        </ul>
+                        <ul type="disc">
+                            <li>Output Design</li>
+                        </ul>
+                        <p style="color: #8e8b8b;">Presenting data in a clean,actionable format for end users</p>
+                        <ul type="circle">
+                            <li>Dashboard & Reports</li>
+                            <li>Data Visualization</li>
+                            <li>Export & print Layout</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="Success">
+                <h1>🌟Success Story</h1>
+                <p style="color: #8e8b8b;">A real -world example of how learning web Technologies can change lives.</p>
+                <div class="success-card">
+                    <div class="success-image">
+                        <img src="project/priya.jpeg">
+                    </div>
+                    <div class="success-content">
+                        <h2>Priya Sharma</h2>
+                        <p class="role">Self-Taught developer-Senior Engineer</p>
+                        <blockquote>"I Started with zero knowledge of coding.Through<b> dedication</b> and consistent
+                            Practice,I went from writing my first <u><i>&lt;h1&gt;</i></u> tag to leading a team of 12
+                            engineers at a
+                            Fortune500 company"</blockquote>
+                        <p>Priya's journey began in 2019 when she discoverd free <b>HTML tutorials</b> online.Within
+                            six months,she had built her first portfolio website. 2021,she landed her first <i><b>junior
+                                    developer</b></i> role. </p>
+                        <p>Key milestones:<mark>1,000+ hours of coding Practice</mark>,15 personal projects,and <del>
+                                zero</del>
+                            <b>countless</b> failures that became lessons.
+                        </p>
+                        <P style="color: #8e8b8b;">H<sub>2</sub>O fueled her late-night sessions.Her motto:"Dream
+                            big,code bigger!"<sup>TM</sup></P>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>© 2026 Complete Web Technology Learning Portal. All rights reserved.</p>
+            <p>Built with HTML, CSS & React</p>
+        </footer>
+
+</body>
+
+</html>
